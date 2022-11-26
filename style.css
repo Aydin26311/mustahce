@@ -1,0 +1,19 @@
+body{
+    background-image: url("background.jpg");
+    
+}
+h2{
+font-size: 25px !important;
+}
+.btn-success:hover{
+    background-color: rgb(42, 78, 29);
+}
+canvas{
+    animation-name:aydin;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes aydin{
+    from{box-shadow: 2px 2px 40px red;}
+    to{box-shadow: 2px 2px 40px blue;}
+}
